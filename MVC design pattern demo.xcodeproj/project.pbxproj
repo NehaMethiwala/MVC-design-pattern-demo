@@ -100,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				913CF42E1FF103D80030C42B /* AppDelegate.swift */,
-				913CF4301FF103D80030C42B /* ViewController.swift */,
+				913CF45F1FF104180030C42B /* Model */,
+				913CF4601FF104390030C42B /* View */,
+				913CF4611FF104480030C42B /* Controller */,
 				913CF4321FF103D80030C42B /* Main.storyboard */,
 				913CF4381FF103D80030C42B /* Assets.xcassets */,
 				913CF43A1FF103D80030C42B /* LaunchScreen.storyboard */,
@@ -126,6 +128,28 @@
 				913CF4531FF103D80030C42B /* Info.plist */,
 			);
 			path = "MVC design pattern demoUITests";
+			sourceTree = "<group>";
+		};
+		913CF45F1FF104180030C42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		913CF4601FF104390030C42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				913CF4301FF103D80030C42B /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		913CF4611FF104480030C42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
